@@ -1,6 +1,7 @@
 ﻿using FluentAssertions;
 using Xunit;
 using Vaquinha.Tests.Common.Fixtures;
+using System;
 
 namespace Vaquinha.Unit.Tests.DomainTests
 {

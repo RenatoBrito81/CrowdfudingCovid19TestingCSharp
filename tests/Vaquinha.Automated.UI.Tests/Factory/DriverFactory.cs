@@ -15,7 +15,7 @@ namespace Vaquinha.AutomatedUITests
         {
             // Inicializa o browser utilizando o ChromeDriver que está no caminho /usr/share/applications/
             //ChromeDriverService service = ChromeDriverService.CreateDefaultService("/usr/share/applications/");
-            FirefoxDriverService service = FirefoxDriverService.CreateDefaultService("/usr/share/applications/");
+            FirefoxDriverService service = FirefoxDriverService.CreateDefaultService(@"C:\Share\Applications");
             
             // Faz criação de porta para abrir o browser.
             service.Port = new Random().Next(64000, 64800);
